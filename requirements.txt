@@ -4,3 +4,4 @@ streamlit
 pandas
 protobuf
 vega-datasets
+openai
