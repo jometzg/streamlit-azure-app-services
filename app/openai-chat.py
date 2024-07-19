@@ -13,7 +13,7 @@ model = os.getenv("OPENAI_MODEL")
 
 # Set a default model
 if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = st.secrets["OPENAI_MODEL"]
+    st.session_state["openai_model"] = model
 
 # Initialize chat history
 if "messages" not in st.session_state:
