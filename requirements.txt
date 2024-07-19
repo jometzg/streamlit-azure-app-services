@@ -5,3 +5,4 @@ pandas
 protobuf
 vega-datasets
 openai
+env
