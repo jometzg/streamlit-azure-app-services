@@ -120,6 +120,30 @@
         "properties": {
             "appCommandLine": "python -m streamlit run app/streamlit_app.py --server.port 8000 --server.address 0.0.0.0"
         }
-    }
+    },
+        {
+            "type": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+            "apiVersion": "2023-12-01",
+            "name": "[concat('webApp-', uniqueString(resourceGroup().id), '/ftp')]",
+            "location": "West Europe",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/sites', concat('webApp-', uniqueString(resourceGroup().id)))]"
+            ],
+            "properties": {
+                "allow": true
+            }
+        },
+        {
+            "type": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+            "apiVersion": "2023-12-01",
+            "name": "[concat('webApp-', uniqueString(resourceGroup().id), '/scm')]",
+            "location": "West Europe",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/sites', concat('webApp-', uniqueString(resourceGroup().id)))]"
+            ],
+            "properties": {
+                "allow": true
+            }
+        }
     ]
   }
