@@ -9,10 +9,10 @@
             "value": "B1"
         },
         "linuxFxVersion": {
-            "value": "PYTHON|3.7"
+            "value": "PYTHON|3.11"
         },
         "repoUrl": {
-            "value": "https://github.com/benalexkeen/streamlit-azure-app-services.git"
+            "value": "https://github.com/jometzg/streamlit-azure-app-services.git"
         },
         "repoBranch": {
             "value": "main"
