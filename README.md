@@ -1,8 +1,8 @@
-# Streamlit Samples on Azure App Services
+# Streamlit samples on Azure App Services
 
-This is couple of streamlit on Azure App Services samples.
-1. A simple streamlit application
-2. An OpenAI chat application built on steamlit which uses an Azure OpenAI service.
+This is couple of Streamlit on Azure App Services samples.
+1. A simple Streamlit application
+2. An OpenAI chat application built on Streamlit which uses an Azure OpenAI service.
 
 This has been forked from https://github.com/benalexkeen/streamlit-azure-app-services
 
