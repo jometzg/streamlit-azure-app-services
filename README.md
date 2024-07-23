@@ -1,4 +1,4 @@
-# Documentation
+# Streamlit Samples on Azure App Services
 
 This is couple of streamlit on Azure App Services samples.
 1. A simple streamlit application
