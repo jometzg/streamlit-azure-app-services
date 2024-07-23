@@ -18,10 +18,10 @@
             "value": "main"
         },
         "openAIendpoint": {
-            "value": "you OpenAI endpoint"
+            "value": "your OpenAI endpoint"
         },
         "openAIkey": {
-            "value": "you OpenAI password"
+            "value": "your OpenAI password"
         },
         "openAImodel": {
             "value": "gpt-4o"
