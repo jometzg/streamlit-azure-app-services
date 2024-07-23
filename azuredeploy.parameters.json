@@ -16,6 +16,15 @@
         },
         "repoBranch": {
             "value": "main"
+        },
+        "OpenAIEndpoint": {
+            "value": "you OpenAI endpoint"
+        },
+        "OpenAIkey": {
+            "value": "you OpenAI password"
+        },
+        "OpenAImodel": {
+            "value": "gpt-4o"
         }
     }
 }
