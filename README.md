@@ -10,7 +10,9 @@ This has been forked from https://github.com/benalexkeen/streamlit-azure-app-ser
 
 The deployment below, creates the Azure OpenAI chat example using an App Services startup command to ensure the App Service runtime plays well with Streamlit.
 
+```
 python -m streamlit run app/openai-chat.py --server.port 8000 --server.address 0.0.0.0"
+```
 
 [![Deploy To Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjometzg%2Fstreamlit-azure-app-services%2Fmain%2Fazuredeploy.json)
 
