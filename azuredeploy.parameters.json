@@ -17,13 +17,13 @@
         "repoBranch": {
             "value": "main"
         },
-        "OpenAIEndpoint": {
+        "openAIendpoint": {
             "value": "you OpenAI endpoint"
         },
-        "OpenAIkey": {
+        "openAIkey": {
             "value": "you OpenAI password"
         },
-        "OpenAImodel": {
+        "openAImodel": {
             "value": "gpt-4o"
         }
     }
