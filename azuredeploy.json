@@ -156,9 +156,7 @@
         "OPENAI_PASSWORD": "[parameters('openAIpassword')]",  
         "OPENAI_MODEL": "[parameters('openAImodel')]"  
       }
-    }
-  ]
-},    
+    },    
     {
         "type": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
         "apiVersion": "2023-12-01",
