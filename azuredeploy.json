@@ -116,7 +116,7 @@
                   "value": "[parameters('openAiEndpoint')]"  
                 },  
                 {  
-                  "name": "OPENAI_PASSWORD",  
+                  "name": "OPENAI_API_KEY",  
                   "value": "[parameters('openAiPassword')]"  
                 },
                 {  
