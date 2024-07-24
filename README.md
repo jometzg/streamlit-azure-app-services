@@ -1,5 +1,5 @@
 # Streamlit samples on Azure App Services
-Streamlit applications are a really fast way of creating simple data-driven web applications, so a especially valuable for proof of concepts.
+[Streamlit](https://docs.streamlit.io/) applications are a really fast way of creating simple data-driven web applications, so a especially valuable for proof of concepts.
 
 Streamlit is a little tricky to configure correctly on Azure App Services (web apps), so this repo has a couple of sample Streamlit apps.
 
