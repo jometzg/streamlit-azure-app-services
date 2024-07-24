@@ -1,6 +1,8 @@
 # Streamlit samples on Azure App Services
+Streamlit applications are a really fast way of creating simple data-driven web applications, so a especially valuable for proof of concepts.
 
-This is couple of Streamlit on Azure App Services samples.
+Streamlit is a little tricky to configure correctly on Azure App Services (web apps), so this repo has a couple of sample Streamlit apps.
+
 1. A simple Streamlit application
 2. An OpenAI chat application built on Streamlit which uses an Azure OpenAI service.
 
@@ -16,6 +18,6 @@ python -m streamlit run app/openai-chat.py --server.port 8000 --server.address 0
 
 [![Deploy To Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjometzg%2Fstreamlit-azure-app-services%2Fmain%2Fazuredeploy.json)
 
-There are some manual settings that need to be done in the *Environment variables* section of the web app. These are to connect the app to the correct Azure OpenAI service instance.
+You will need to provide some settings from an existing Azure OpenAI instance. These get put the *Environment variables* section of the web app. These are to connect the app to the correct Azure OpenAI service instance.
 
 ![alt text](./app-service-streamlit-openai-settings.png "App Service Environment Variables")
