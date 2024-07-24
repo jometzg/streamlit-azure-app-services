@@ -6,6 +6,8 @@ Streamlit is a little tricky to configure correctly on Azure App Services (web a
 1. A simple Streamlit application
 2. An OpenAI chat application built on Streamlit which uses an Azure OpenAI service.
 
+![alt text](./streamlit-chat-app-services.png "Streamlit chat App Service")
+
 This has been forked from https://github.com/benalexkeen/streamlit-azure-app-services
 
 # Deployment
