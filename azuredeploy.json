@@ -59,21 +59,21 @@
           "description": "Git Repo branch to deploy"
         }
       },
-      "openAIendpoint": {
+      "openAiEndpoint": {
         "type": "string",
         "defaultValue": "",
         "metadata": {
           "description": "Azure OpenAI endpoint"
         }
       },
-      "openAIpassword": {
+      "openAiPassword": {
         "type": "string",
         "defaultValue": "",
         "metadata": {
           "description": "Azure OpenAI password"
         }
       },
-      "openAImodel": {
+      "openAiModel": {
         "type": "string",
         "defaultValue": "gpt-4o",
         "metadata": {
@@ -113,15 +113,15 @@
             "appSettings": [  
                 {  
                   "name": "OPENAI_ENDPOINT",  
-                  "value": "[parameters('openAIendpoint')]"  
+                  "value": "[parameters('openAiEndpoint')]"  
                 },  
                 {  
                   "name": "OPENAI_PASSWORD",  
-                  "value": "[parameters('openAIpassword')]"  
+                  "value": "[parameters('openAiPassword')]"  
                 },
                 {  
                   "name": "OPENAI_MODEL",  
-                  "value": "[parameters('openAImodel')]"  
+                  "value": "[parameters('openAiModel')]"  
                 }  
             ]    
             }  
